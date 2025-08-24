@@ -1,0 +1,36 @@
+/* ---------- LANDING PAGE ---------- */
+body.landing {
+  min-height: 100vh;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;   /* vertical centering */
+  align-items: center;       /* horizontal centering */
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+
+/* optional overlay */
+body.landing::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255,255,255,0.35);
+}
+
+.landing-wrapper {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+}
+
+.landing-title {
+  font-size: clamp(28px, 3.5vw, 48px);
+  font-weight: bold;
+  margin: 0 0 24px 0;
+}
+
+.brand { color: #2c3e50; }

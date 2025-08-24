@@ -1,0 +1,15 @@
+Flask==3.0.3
+gunicorn==22.0.0
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+scikit-learn
+imbalanced-learn
+tensorflow
+keras
+flask
+streamlit
+joblib
+
